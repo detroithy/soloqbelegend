@@ -1,0 +1,10 @@
+Frontend: React + TypeScript + Tailwind
+State: Zustand veya Redux (kariyer/oyuncu durumu)
+Save: localStorage (MVP) → Supabase (online rank istersen)
+Deploy: Vercel/Netlify (ücretsiz, anında)
+
+"Web tabanlı bir oyun geliştiriyorum: 'SoloQ: Efsane Yolu' — League of Legends'daki solo queue rank tırmanma deneyiminin esports oyuncu kariyeri temalı versiyonu. Takım yönetimi YOK, oyuncu tek bir rol seçiyor (Carry/Tank/Jungle/Support gibi) ve o rolde kariyer yapıyor.
+Çekirdek döngü: Antrenman yap → SoloQ maçına gir (otomatik simülasyon + karar anlarında event kartları çıkar, örn. 'gank gelirse roam mı atarsın?') → maç sonu rapor ve LP/rank puanı al → Iron'dan Challenger'a kadar rank atla → form/tükenmişlik/sponsor gibi yan sistemlerle kariyer ilerlet.
+Tech stack: React + TypeScript + Tailwind (frontend), Zustand (state), başlangıçta localStorage ile kayıt (sonra Supabase ile online leaderboard eklenebilir), Vercel ile deploy.
+Mimari: player/role/progression modülleri, match simulation + event card sistemi, rank hesaplama sistemi. Veri (roller, eventler, rank eşikleri) JSON ile dışarıdan tanımlı, kolay genişletilebilir olacak.
+Bana [: 'roles.json için örnek veri yapısı', 'match simulation algoritmasının ilk versiyonu', 'React component ağacı önerisi'] hazırla. ardindan gelistirmeye devam edelim"

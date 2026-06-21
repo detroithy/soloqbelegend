@@ -1,0 +1,42 @@
+{
+  "carry": [
+    { "id": "carry_burst", "name": "Full Burst", "sequence": "W → AA → Q → AA", "difficulty": 55, "damage": 80, "risk": "medium" },
+    { "id": "carry_trade", "name": "Quick Trade", "sequence": "AA → Q → E Out", "difficulty": 35, "damage": 50, "risk": "low" },
+    { "id": "carry_allin", "name": "All-In", "sequence": "Flash → E → AA → Q → R", "difficulty": 80, "damage": 95, "risk": "high" },
+    { "id": "carry_kite", "name": "Kite Back", "sequence": "AA → W → AA → E Away", "difficulty": 45, "damage": 55, "risk": "low" },
+    { "id": "carry_poke", "name": "Poke Combo", "sequence": "Q → AA → W → Back", "difficulty": 30, "damage": 40, "risk": "low" },
+    { "id": "carry_safe", "name": "Güvende Kal", "sequence": "SAFE", "difficulty": 0, "damage": 0, "risk": "low" }
+  ],
+  "mid": [
+    { "id": "mid_burst", "name": "Full Combo", "sequence": "Q → E → W → Q → R", "difficulty": 65, "damage": 90, "risk": "medium" },
+    { "id": "mid_trade", "name": "Short Trade", "sequence": "E → Q → W Back", "difficulty": 40, "damage": 50, "risk": "low" },
+    { "id": "mid_allin", "name": "All-In Kill", "sequence": "Flash → E → Q → W → R", "difficulty": 85, "damage": 100, "risk": "high" },
+    { "id": "mid_poke", "name": "Poke Harass", "sequence": "Q → E → Q Back", "difficulty": 30, "damage": 35, "risk": "low" },
+    { "id": "mid_roam", "name": "Roam Play", "sequence": "E → W → Q → Ult roam", "difficulty": 60, "damage": 70, "risk": "medium" },
+    { "id": "mid_safe", "name": "Güvende Kal", "sequence": "SAFE", "difficulty": 0, "damage": 0, "risk": "low" }
+  ],
+  "jungle": [
+    { "id": "jg_gank", "name": "Gank Combo", "sequence": "Q → Smite → W → E → R", "difficulty": 70, "damage": 85, "risk": "medium" },
+    { "id": "jg_invade", "name": "Invade Fight", "sequence": "E → Q → Smite → W → AA", "difficulty": 65, "damage": 80, "risk": "medium" },
+    { "id": "jg_dive", "name": "Tower Dive", "sequence": "Q → E → R → Smite → Out", "difficulty": 90, "damage": 95, "risk": "high" },
+    { "id": "jg_countergank", "name": "Counter Gank", "sequence": "W → Q → E → AA", "difficulty": 50, "damage": 60, "risk": "low" },
+    { "id": "jg_5050", "name": "50/50 Baron", "sequence": "Smite → Q → E → R", "difficulty": 75, "damage": 90, "risk": "high" },
+    { "id": "jg_safe", "name": "Güvende Kal", "sequence": "SAFE", "difficulty": 0, "damage": 0, "risk": "low" }
+  ],
+  "top": [
+    { "id": "tank_engage", "name": "Hard Engage", "sequence": "Flash → Q → R → E → W", "difficulty": 60, "damage": 60, "risk": "medium" },
+    { "id": "tank_peel", "name": "Peel ADC", "sequence": "W → Q → E → AA", "difficulty": 35, "damage": 30, "risk": "low" },
+    { "id": "tank_dive", "name": "Backline Dive", "sequence": "Q → R → E → W → AA", "difficulty": 75, "damage": 70, "risk": "high" },
+    { "id": "tank_trade", "name": "Short Trade", "sequence": "Q → E → W Back", "difficulty": 25, "damage": 35, "risk": "low" },
+    { "id": "tank_cc", "name": "CC Chain", "sequence": "Q → R → E → W → Q", "difficulty": 70, "damage": 50, "risk": "medium" },
+    { "id": "tank_safe", "name": "Güvende Kal", "sequence": "SAFE", "difficulty": 0, "damage": 0, "risk": "low" }
+  ],
+  "support": [
+    { "id": "sup_engage", "name": "All-In Engage", "sequence": "Q → Flash → E → R", "difficulty": 65, "damage": 50, "risk": "medium" },
+    { "id": "sup_peel", "name": "ADC Peel", "sequence": "E → Q → W → R", "difficulty": 40, "damage": 30, "risk": "low" },
+    { "id": "sup_roam", "name": "Roam Gank", "sequence": "Flash → Q → E → W", "difficulty": 55, "damage": 45, "risk": "medium" },
+    { "id": "sup_harass", "name": "Lane Harass", "sequence": "AA → E → Q → AA", "difficulty": 30, "damage": 35, "risk": "low" },
+    { "id": "sup_save", "name": "Flash Save", "sequence": "Flash → W → E → Q", "difficulty": 50, "damage": 20, "risk": "medium" },
+    { "id": "sup_safe", "name": "Güvende Kal", "sequence": "SAFE", "difficulty": 0, "damage": 0, "risk": "low" }
+  ]
+}

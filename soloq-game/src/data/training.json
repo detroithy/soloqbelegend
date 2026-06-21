@@ -1,0 +1,187 @@
+[
+  {
+    "id": "farm",
+    "name": "Farm Antrenmani",
+    "description": "Minion oldurme becerini gelistir. Hizli ve temiz CS almayi ogren.",
+    "icon": "💰",
+    "statFocus": "csPerMin",
+    "duration": 60,
+    "scenarios": [
+      {
+        "title": "Dalga Yonetimi",
+        "description": "Dalga sana dogru geliyor. Rakip champion yok. 10 saniyede kac CS alabilirsin?",
+        "options": [
+          { "text": "Hizli temizle, fast push yap", "successChance": 0.7, "effect": 1.5 },
+          { "text": "Freeze yap, beklet", "successChance": 0.8, "effect": 2.0 },
+          { "text": "Slow push yap, dalga biriktir", "successChance": 0.6, "effect": 1.8 }
+        ]
+      },
+      {
+        "title": "Tower Altinda CS",
+        "description": "Tower altinda CS almak zor. Cannon minion geldi, nasil alirsin?",
+        "options": [
+          { "text": "Pre-hit yap, hasarini hesapla", "successChance": 0.65, "effect": 1.8 },
+          { "text": "Ability kullan, garanti al", "successChance": 0.9, "effect": 1.0 },
+          { "text": "Son vurus zamanlamasina odaklan", "successChance": 0.75, "effect": 1.5 }
+        ]
+      },
+      {
+        "title": "Haritadan Farm",
+        "description": "Ormanda camp var. Jungle izin verdi. Farm mi yapacaksin yoksa roam mu?",
+        "options": [
+          { "text": "Campi al, gold kazan", "successChance": 0.85, "effect": 1.2 },
+          { "text": "Roam yap, kill firsati ara", "successChance": 0.4, "effect": 0.5 },
+          { "text": "Campi al sonra roam et", "successChance": 0.7, "effect": 1.0 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kda",
+    "name": "KDA Antrenmani",
+    "description": "Olme/kacma ve oldurme becerini gelistir. Mekaniklerini guclendir.",
+    "icon": "⚔️",
+    "statFocus": "kda",
+    "duration": 90,
+    "scenarios": [
+      {
+        "title": "2v2 Karsilasmasi",
+        "description": "Koridorunuzda 2v2 savas basladi. Oncelikli hedefin ne olmali?",
+        "options": [
+          { "text": "ADCyi hedef al, hasarini doker", "successChance": 0.5, "effect": 2.0 },
+          { "text": "Supportu hedef al, once onu indir", "successChance": 0.6, "effect": 1.5 },
+          { "text": "En yakinini hedef al, hasarini paylastir", "successChance": 0.7, "effect": 1.0 }
+        ]
+      },
+      {
+        "title": "Escape Karari",
+        "description": "3 kisi seni kovaliyor. Kacma firsatin var ama birini de oldurabilirsin.",
+        "options": [
+          { "text": "Kac, canini koru", "successChance": 0.8, "effect": 1.0 },
+          { "text": "One don, kill al ve ol", "successChance": 0.3, "effect": 2.5 },
+          { "text": "CC kullan, kacmaya calis", "successChance": 0.6, "effect": 1.5 }
+        ]
+      },
+      {
+        "title": "Teamfight Oncesi",
+        "description": "Takim savasi baslamak uzere. Pozisyonun nasil olmali?",
+        "options": [
+          { "text": "Frontline da ol, hasar al", "successChance": 0.5, "effect": 1.8 },
+          { "text": "Backline da kal, guvende ol", "successChance": 0.75, "effect": 1.2 },
+          { "text": "Flank yap, yan taraftan gir", "successChance": 0.45, "effect": 2.2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vision",
+    "name": "Vision Antrenmani",
+    "description": "Harita bilinci ve ward yerlestirme becerini gelistir.",
+    "icon": "👁️",
+    "statFocus": "visionScore",
+    "duration": 45,
+    "scenarios": [
+      {
+        "title": "Ward Yerlesitirme",
+        "description": "Dragon 2 dakika sonra spawn olacak. Nereye ward yerlestirmelisin?",
+        "options": [
+          { "text": "Dragon pitine ward at", "successChance": 0.9, "effect": 2.0 },
+          { "text": "Rakip ormanina derin ward at", "successChance": 0.6, "effect": 3.0 },
+          { "text": "Koridorun ucuna ward at", "successChance": 0.8, "effect": 1.0 }
+        ]
+      },
+      {
+        "title": "De-Ward",
+        "description": "Rakip Baron etrafinda wardladi. Ne yapmalisin?",
+        "options": [
+          { "text": "Sweeper kullan, wardlari temizle", "successChance": 0.85, "effect": 2.5 },
+          { "text": "Pink ward at, gozle", "successChance": 0.9, "effect": 1.5 },
+          { "text": "Rakibi zorla, ward atmasini engelle", "successChance": 0.5, "effect": 1.0 }
+        ]
+      },
+      {
+        "title": "Deep Vision",
+        "description": "Rakip ormaninda derin vision acmak istiyorsun. Riskli mi?",
+        "options": [
+          { "text": "Derin ward at, bilgi topla", "successChance": 0.5, "effect": 3.0 },
+          { "text": "Guvenli yerde bekle, firsat bekle", "successChance": 0.85, "effect": 0.8 },
+          { "text": "Takimla git, guvende ward at", "successChance": 0.7, "effect": 2.0 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "macro",
+    "name": "Macro Antrenmani",
+    "description": "Oyun bilgisi ve stratejik karar verme becerini gelistir.",
+    "icon": "🧠",
+    "statFocus": "kda",
+    "duration": 75,
+    "scenarios": [
+      {
+        "title": "Objective Oncelik",
+        "description": "Dragon ve Baron ayni anda spawn oldu. Hangisine gitmelisin?",
+        "options": [
+          { "text": "Dragona git, daha onemli", "successChance": 0.7, "effect": 1.5 },
+          { "text": "Barona git, oyunu bitir", "successChance": 0.5, "effect": 2.2 },
+          { "text": "Bolgeyi paylas, riske gitme", "successChance": 0.6, "effect": 1.0 }
+        ]
+      },
+      {
+        "title": "Split Push",
+        "description": "Takimin 4 kisi savasirken sen split push yapiyorsun. Rakip senden 2 kisi gonderdi.",
+        "options": [
+          { "text": "Devam et, toweri al", "successChance": 0.6, "effect": 2.0 },
+          { "text": "Geri cek, takima katil", "successChance": 0.8, "effect": 1.0 },
+          { "text": "TP kullan, savasa join ol", "successChance": 0.55, "effect": 1.8 }
+        ]
+      },
+      {
+        "title": "Rotation Karari",
+        "description": "Koridorun bitti, diger koridorda firsat var. Ne yapmalisin?",
+        "options": [
+          { "text": "Hemen diger koridora git", "successChance": 0.7, "effect": 1.5 },
+          { "text": "Once dalgani temizle, sonra git", "successChance": 0.8, "effect": 1.2 },
+          { "text": "Farm yap, bekle", "successChance": 0.9, "effect": 0.5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mental",
+    "name": "Mental Antrenmani",
+    "description": "Tilt yonetimi ve psikolojik direncini gelistir.",
+    "icon": "🧘",
+    "statFocus": "kda",
+    "duration": 30,
+    "scenarios": [
+      {
+        "title": "Tilt Yonetimi",
+        "description": "3 mac ustuste kaybettin. 4. mac basladi. Nasil hissediyorsun?",
+        "options": [
+          { "text": "Kizginim, kazanacagim", "successChance": 0.4, "effect": 1.5 },
+          { "text": "Sakinim, odakliyim", "successChance": 0.8, "effect": 2.5 },
+          { "text": "Umursamazim, keyif aliyorum", "successChance": 0.6, "effect": 1.0 }
+        ]
+      },
+      {
+        "title": "Takim Catismasi",
+        "description": "Takim uyeleri kavga ediyor. 2 kisi birbirine kufur ediyor.",
+        "options": [
+          { "text": "Herkesi mutesle, odaklan", "successChance": 0.9, "effect": 2.0 },
+          { "text": "Takimi sakinlestirmeye calis", "successChance": 0.5, "effect": 1.5 },
+          { "text": "Kufur edenlere katil", "successChance": 0.1, "effect": -2.0 }
+        ]
+      },
+      {
+        "title": "Comeback Inanci",
+        "description": "15-3 geridesiniz. Takim FF atmak istiyor. Sen ne diyorsun?",
+        "options": [
+          { "text": "FF ver, bos ver", "successChance": 0.9, "effect": -1.5 },
+          { "text": "Devam edelim, kazanabiliriz", "successChance": 0.4, "effect": 2.5 },
+          { "text": "Bir objective alirsak doneriz", "successChance": 0.6, "effect": 1.5 }
+        ]
+      }
+    ]
+  }
+]

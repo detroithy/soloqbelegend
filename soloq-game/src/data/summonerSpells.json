@@ -1,0 +1,12 @@
+[
+  { "id": "flash", "name": "Flash", "icon": "⚡", "cooldown": 300, "description": "Kisa mesafe ileri dogru isinlan" },
+  { "id": "ignite", "name": "Ignite", "icon": "🔥", "cooldown": 180, "description": "Hedefi 5 saniye boyunca yak, 70-410 true damage" },
+  { "id": "heal", "name": "Heal", "icon": "💚", "cooldown": 240, "description": "85-345 HP iyiles ve %10 hareket hizi artisi" },
+  { "id": "barrier", "name": "Barrier", "icon": "🛡️", "cooldown": 180, "description": "110-455 kalkan olustur (2 saniye)" },
+  { "id": "teleport", "name": "Teleport", "icon": "🌀", "cooldown": 360, "description": "Hedef bir birime veya goze 4 saniyede isinlan" },
+  { "id": "ghost", "name": "Ghost", "icon": "👻", "cooldown": 210, "description": "10 saniye boyunca +%50 hareket hizi" },
+  { "id": "cleanse", "name": "Cleanse", "icon": "✨", "cooldown": 210, "description": "Tum kontrolleri kaldir (1 saniye cc direnci)" },
+  { "id": "exhaust", "name": "Exhaust", "icon": "💨", "cooldown": 210, "description": "Hedefe %30 hasar ve %30 hareket hizi azaltma (2.5s)" },
+  { "id": "smite", "name": "Smite", "icon": "🟤", "cooldown": 90, "description": "600-1200 true damage (yaratiklara)" },
+  { "id": "clarity", "name": "Clarity", "icon": "🔵", "cooldown": 240, "description": "Yakinindaki soplilara mana iade et" }
+]

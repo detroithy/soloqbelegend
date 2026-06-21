@@ -1,0 +1,62 @@
+[
+  {
+    "id": "carry",
+    "name": "ADC",
+    "nameTr": "Tasiyici (ADC)",
+    "description": "Oyunun gec safhalarinda yuksek hasar cikaran, farm'a odaklanan roldur.",
+    "baseStats": {
+      "damage": 9,
+      "tankiness": 2,
+      "utility": 3,
+      "difficulty": 6
+    }
+  },
+  {
+    "id": "top",
+    "name": "Top",
+    "nameTr": "Ust Koridor (Top)",
+    "description": "Takimin one cikip hasar emen, rakipleri kontrol eden roldur.",
+    "baseStats": {
+      "damage": 4,
+      "tankiness": 9,
+      "utility": 5,
+      "difficulty": 5
+    }
+  },
+  {
+    "id": "jungle",
+    "name": "Jungle",
+    "nameTr": "Ormanci (Jungle)",
+    "description": "Ormanda farm yaparak ve gank atarak harita kontrolu saglayan roldur.",
+    "baseStats": {
+      "damage": 7,
+      "tankiness": 5,
+      "utility": 7,
+      "difficulty": 8
+    }
+  },
+  {
+    "id": "mid",
+    "name": "Mid",
+    "nameTr": "Orta Koridor (Mid)",
+    "description": "Haritanin ortasinda yuksek hasar cikaran, roamer olan roldur.",
+    "baseStats": {
+      "damage": 9,
+      "tankiness": 3,
+      "utility": 5,
+      "difficulty": 7
+    }
+  },
+  {
+    "id": "support",
+    "name": "Support",
+    "nameTr": "Destek (Support)",
+    "description": "Takim arkadaslarini destekleyen, vision saglayan roldur.",
+    "baseStats": {
+      "damage": 3,
+      "tankiness": 6,
+      "utility": 10,
+      "difficulty": 5
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "rank": "iron", "name": "Iron", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "bronze", "name": "Bronze", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "silver", "name": "Silver", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "gold", "name": "Gold", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "platinum", "name": "Platinum", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "emerald", "name": "Emerald", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "diamond", "name": "Diamond", "minLp": 0, "maxLp": 100, "divisions": 4 },
+  { "rank": "master", "name": "Master", "minLp": 0, "maxLp": 100, "divisions": 1 },
+  { "rank": "grandmaster", "name": "Grandmaster", "minLp": 0, "maxLp": 100, "divisions": 1 },
+  { "rank": "challenger", "name": "Challenger", "minLp": 0, "maxLp": 999, "divisions": 1 }
+]
